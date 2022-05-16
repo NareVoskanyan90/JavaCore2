@@ -19,11 +19,28 @@ public class Arrayutil {
                         min = array[i];
                         System.out.println("min=" + min);
 
-                        for (int յ = 0; յ < array.length; յ++){
+                        for (int յ = 0; յ < array.length; յ++) {
                             if (array[i] % 2 == 0) {
                                 System.out.println(array[i]);
                             }
                         }
-                      }
-                }}}}}
+                        for (int k = 0; k < array.length; k++) {
+                            int ii = 1;
+                            if (array[i] % 2 != 1) {
+                            }
+                        }
+                        int count = 1;
+                        for (int m = 0; m < array.length; m++) {
+                            if (array[i] % 2 == 0) {
+                                System.out.println(array[i]);
+                                count++;
+                                System.out.println("count"+count);
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
 
