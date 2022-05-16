@@ -9,33 +9,21 @@ public class Arrayutil {
         }
         int max = array[0];
         for (int i = 1; i < array.length; i++) {
-
-            max = array[0];
             if (array[i] > max) {
                 max = array[i];
-                System.out.println(max);
-                for (int K = 0; K < array.length; K++) {
+                System.out.println("max=" + max);
 
-                    int min = array[0];
+                for (int j = 1; j < array.length; j++) {
+                    int min = 0;
                     if (array[i] < min) {
                         min = array[i];
-                        System.out.print(min +" ");
+                        System.out.println("min=" + min);
 
-                    }
-
-                }
-            }
-        }
-    }}
-
-
-
-
-
-
-
-
-
-
-
+                        for (int յ = 0; յ < array.length; յ++){
+                            if (array[i] % 2 == 0) {
+                                System.out.println(array[i]);
+                            }
+                        }
+                      }
+                }}}}}
 
