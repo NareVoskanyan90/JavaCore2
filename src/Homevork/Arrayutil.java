@@ -26,7 +26,7 @@ public class Arrayutil {
                         }
                         for (int k = 0; k < array.length; k++) {
                             int ii = 1;
-                            if (array[i] % 2 != 1) {
+                            if (array[i] % 2 != 0) {
                             }
                         }
                         int count = 1;
@@ -37,15 +37,16 @@ public class Arrayutil {
                                 System.out.println("count" + count);
                             }
                         }
-                        int count = 1;
-                        for (int c = 0; c < array.length; c++) {
+                        int evencount = 0;
+                        for (int h = 0; h < array.length; h++) {
                             if (array[i] % 2 != 0) {
-                                count++;
-                                System.out.println("count"+count);
-
+                                evencount++;
                             }
+                            System.out.println("evencount" + evencount);
                         }
                     }
                 }
-
-
+            }
+        }
+    }
+}
