@@ -34,13 +34,18 @@ public class Arrayutil {
                             if (array[i] % 2 == 0) {
                                 System.out.println(array[i]);
                                 count++;
+                                System.out.println("count" + count);
+                            }
+                        }
+                        int count = 1;
+                        for (int c = 0; c < array.length; c++) {
+                            if (array[i] % 2 != 0) {
+                                count++;
                                 System.out.println("count"+count);
 
                             }
                         }
                     }
                 }
-            }
-        }
 
 
