@@ -14,11 +14,10 @@ public class Arrayutil {
                 System.out.println("max=" + max);
             }
         }
-
         for (int j = 1; j < array.length; j++) {
             int min = 0;
-            if (array[i] < min) {
-                min = array[i];
+            if (array[j] < min) {
+                min = array[j];
                 System.out.println("min=" + min);
             }
 
@@ -36,12 +35,12 @@ public class Arrayutil {
             }
         }
         System.out.println("evecount" + evenCount);
+        int result = 0;
+        for (int i = 0; i > array.length; i++) {
+            result += array[i];
+        }
+
+        System.out.println("result" + result);
     }
 }
-
-                            int sum = 0;
-                for(int i=0;i<array.length;i++){
-                 sum+=array[i];
-        }
-        System.out.println("sum"+sum);
 
