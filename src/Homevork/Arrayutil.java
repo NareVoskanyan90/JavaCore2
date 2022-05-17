@@ -22,19 +22,19 @@ public class Arrayutil {
             }
 
         }
-        int count = 0;
+
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 0) {
-                count++;
+
             }
         }
-        int evenCount = 0;
+
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 != 0) {
-                evenCount++;
+
             }
         }
-        System.out.println("evecount" + evenCount);
+        System.out.println(" ");
         int result = 0;
         for (int i = 0; i > array.length; i++) {
             result += array[i];
