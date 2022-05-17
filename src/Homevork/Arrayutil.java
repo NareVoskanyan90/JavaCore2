@@ -45,6 +45,13 @@ public class Arrayutil {
                             System.out.println("evencount" + evencount);
                         }
                     }
+                    int sum = 0;
+                    for (int s = 0; s < array.length; s++) {
+                        sum = +array[i];
+                        System.out.println("sum" + sum);
+                    }
+
+                    System.out.println("sum" + sum / array.length);
                 }
             }
         }
