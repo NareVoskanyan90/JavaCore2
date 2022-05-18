@@ -22,13 +22,13 @@ public class Arrayutil {
             }
 
         }
-
+       int addCoun0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 0) {
 
             }
         }
-
+int eveCoun=0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 != 0) {
 
